@@ -197,7 +197,7 @@ void Main() {
 				exp{ gui.textArea(L"exp").text }) {
 				gui.textArea(L"exp").style.color
 					= Palette::Black; // ⑥
-									  // ⑦ 数式に基づきメッシュの座標を計算
+				// ⑦ 数式に基づきメッシュの座標を計算
 				for (auto& v : meshData.vertices) {
 					v.position.y = exp.evaluateOpt({
 						{ L"x", v.position.x },
