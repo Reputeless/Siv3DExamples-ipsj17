@@ -82,8 +82,8 @@ void Main() {
 		const auto fft = FFT::Analyze(mic);
 		for (int i = 0; i < fft.length(); ++i) {
 			// ④ 音階
-			double s = -Log2(27.5 /
-				(fft.resolution() * i));
+			double s = Log2(
+				(fft.resolution() * (i + 1)) / 27.5);
 			// ⑤ パワー
 			double p = fft.buffer[i];
 			// ⑥ 円の中心位置
