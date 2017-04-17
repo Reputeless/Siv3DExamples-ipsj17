@@ -1,6 +1,9 @@
 **音や画像で遊ぼう ～インタラクティブアプリケーションのための C++ フレームワーク「Siv3D」～**  
 サンプルコード（『情報処理』2017 年 6 月号 掲載）  
 
+### Siv3D のインストール方法 (Windows)
+Siv3D Web ページ https://github.com/Siv3D/Reference-JP/wiki/ダウンロードとインストール
+
 ## 1. コンピュータ画伯
 ```cpp
 # include <Siv3D.hpp>
